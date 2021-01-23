@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testng.Pom_concept">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testng.Pom_concept -->
+      <class name="testng.RefreshTC_SkillRary_Exception">
+        <methods>
+          <include name="test1"/>
+          <include name="closeAppln"/>
+          <include name="openAppln"/>
+        </methods>
+      </class> <!-- testng.RefreshTC_SkillRary_Exception -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
